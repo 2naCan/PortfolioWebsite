@@ -117,11 +117,15 @@ body a img:hover{
 #hero h2{
     font-size: 3rem;
     font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
 }
 #hero p{
     position: relative;
     font-size: 2rem;
-    bottom: 4.3rem
+    bottom: 4.3rem;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 
@@ -286,3 +290,6 @@ body a img:hover{
     padding-left: 1rem;
 }
 
+.heroText h2 {
+
+}
