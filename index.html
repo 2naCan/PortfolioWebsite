@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <div class="navBar">
+        <img id="logo" src="img/3948bd9d514a4b05b0fffdb65d502ae0.png" height="80vh" width="80vw">
+
+        <div class="navButtons"> <!--  nav to div id-->
+            <a id="aboutButton" class="transparent buttons navHover lightgrayText" href="#aboutMe">About</a>
+            <a id="portfolioButton" class="transparent buttons navHover lightgrayText" href="#portfolio">Portfolio</a>
+            <a id="contactButton" class="transparent buttons navHover lightgrayText" href="#contactMe">Contact</a>
+        </div>
+
+    </div>
+
+     <div id="hero"> <!--   background image-->
+         <div class="heroText">
+             <h2>I'm <span class="orange">Izayah Jordan</span></h2>
+             <p>Software developer</p>
+         </div>
+         <div id="linkBar">
+             <div class="email">
+                 <a href="mailto:izayahjordan13@gmail.com">
+                     <img src="img/bx-envelope.svg" height="40vh" width="40vw">
+                 </a>
+             </div>
+
+             <div class="github">
+                 <a href="https://github.com/2naCan">
+                     <img src="img/bxl-github.svg" height="40vh" width="40vw">
+                 </a>
+             </div>
+
+             <div class="linkedIn">
+                 <a href="https://uk.linkedin.com/in/izayah-jordan-17a027273">
+                     <img src="img/bxl-linkedin-square.svg" height="40vh" width="40vw">
+                 </a>
+             </div>
+
+             <div class="twitter">
+                 <a href="twitter.com">
+                     <img src="img/bxl-twitter.svg" height="40vh" width="40vw">
+                 </a>
+             </div>
+         </div>
+    </div>
+
+    <div id="aboutMe">
+        <h1>About <span class="orange">Me</span></h1>
+        <p>Lorem ipsum dolor sit amet. Ea consequatur rerum ex galisum quas et totam quisquam 33 dolorem saepe aut corrupti ipsa. Qui explicabo fugiat vel galisum adipisci et beatae quis qui facilis dolorem!
+            Sed deleniti aperiam aut quae dolorem cum mollitia error ad aliquam nulla eum quibusdam veniam et corrupti adipisci. Qui iure laborum aut minus provident ad veniam tenetur in consequatur laboriosam qui blanditiis dolor eum voluptatem distinctio. Qui cumque sint rem repellat labore ut facilis quisquam.
+        </p>
+    </div>
+
+    <h2 id="langTitle"><span class="orange">My</span>&nbsp;Skills</h2>
+    <div id="languages">
+        <div onclick="selectColor()" class="languageBox lightgray">
+            <div class="languageColumn">
+                <img src="img/html-5-svgrepo-com.svg" width=50%>
+                <p>HTML</p>
+            </div>
+        </div>
+        <div onclick="selectColor()" class="languageBox lightgray">
+            <div class="languageColumn">
+                <img src="img/css-3-svgrepo-com.svg" width=50%>
+                <p>CSS</p>
+            </div>
+        </div>
+        <div onclick="selectColor()" class="languageBox lightgray">
+            <div class="languageColumn">
+                <img src="img/python-svgrepo-com.svg" width=50%>
+                <p>Python</p>
+            </div>
+        </div>
+        <div onclick="selectColor()" class="languageBox lightgray">
+            <div class="languageColumn">
+                <img src="img/javascript-svgrepo-com.svg" width=50%>
+                <p>JavaScript</p>
+            </div>
+        </div>
+        <div onclick="selectColor()" class="languageBox lightgray">
+            <div class="languageColumn">
+                <img src="img/php2-svgrepo-com%20(1).svg" width=50%>
+                <p>PHP</p>
+            </div>
+        </div>
+        <div onclick="selectColor()" class="languageBox lightgray">
+           <div class="languageColumn">
+                <img src="img/bug-svgrepo-com.svg" width=50%>
+                <p>Bug creator</p>
+           </div>
+        </div>
+    </div>
+    <div class="break">
+
+    </div>
+
+
+    <div id="portfolio">
+        <h2 class="portfolioTitle">Portfolio</h2>
+        <div class="projects">
+            <div class="project1 gap">
+                <div class="projectLeftRight lightgray">
+                    <img id="project1Img" class="projectImg" src="https://placedog.net/300">
+                    <div class="topBot">
+                        <h2 id="project1Title" class="projectTitle">Project 1</h2>
+                        <p>Et nemo ullam eos eius officia aut adipisci velit et nemo excepturi. Sit voluptas commodi et officia consequatur qui praesentium dolor sed consequatur odit eos ullam maxime! Nam neque ipsum est pariatur dolorum vel possimus impedit ad quidem autem non nulla officia.
+                        </p>
+                    </div>
+                    <div class="projectLinks">
+                        <a href="https://github.com" id="project1Git">
+                            <img src="../portfolioWebsiteAccessible/img/bxl-github.svg" height="40vh" width="40vw">
+                        </a>
+                        <a href="#" id="project1Live">
+                            <img src="img/jsfiddle-svgrepo-com.svg" height="40vh" width="40vw">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project2 gap">
+                <div class="projectLeftRight lightgray">
+                    <img id="project2Img" class="projectImg" src="https://placedog.net/300">
+                    <div class="topBot">
+                        <h2 id="project2Title" class="projectTitle">Project 2</h2>
+                        <p>Et nemo ullam eos eius officia aut adipisci velit et nemo excepturi. Sit voluptas commodi et officia consequatur qui praesentium dolor sed consequatur odit eos ullam maxime! Nam neque ipsum est pariatur dolorum vel possimus impedit ad quidem autem non nulla officia.
+                        </p>
+                    </div>
+                    <div class="projectLinks">
+                        <a href="https://github.com" id="project2Git">
+                            <img src="../portfolioWebsiteAccessible/img/bxl-github.svg" height="40vh" width="40vw">
+                        </a>
+                        <a href="#" id="project2Live">
+                            <img src="img/jsfiddle-svgrepo-com.svg" height="40vh" width="40vw">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project3 gap">
+                <div class="projectLeftRight lightgray">
+                    <img id="project3Img" class="projectImg" src="https://placedog.net/300">
+                    <div class="topBot">
+                        <h2 id="project3Title" class="projectTitle">Project 3</h2>
+                        <p>Et nemo ullam eos eius officia aut adipisci velit et nemo excepturi. Sit voluptas commodi et officia consequatur qui praesentium dolor sed consequatur odit eos ullam maxime! Nam neque ipsum est pariatur dolorum vel possimus impedit ad quidem autem non nulla officia.
+                        </p>
+                    </div>
+                    <div class="projectLinks">
+                        <a href="https://github.com" id="project3Git">
+                            <img src="../portfolioWebsiteAccessible/img/bxl-github.svg" height="40vh" width="40vw">
+                        </a>
+                        <a href="#" id="project3Live">
+                            <img src="img/jsfiddle-svgrepo-com.svg" height="40vh" width="40vw">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="break">
+
+    </div>
+
+
+    <div id="contactMe">
+        <h2>Contact <span class="orange">&nbsp;Me</span></h2>
+        <div class="contactButtons">
+            <a href="#" id="email">
+                <img src="img/bx-envelope.svg" height="40vh" width="40vw">
+                <p>izayahjordan13@gmail.com</p>
+            </a>
+            <a href="#" id="phone">
+                <img src="img/phone-svgrepo-com.svg" height="40vh" width="40vw">
+                <p>+44 4048-162-102</p>
+            </a>
+            <a href="#" id="location">
+                <img src="img/location-pin-alt-1-svgrepo-com.svg" height="40vh" width="40vw">
+                <p>Bath, United Kingdom</p>
+            </a>
+        </div>
+        <div id="contactBottom">
+            <div class="github">
+                <a href="https://github.com/2naCan">
+                    <img src="img/bxl-github.svg" height="40vh" width="40vw">
+                </a>
+            </div>
+
+            <div class="linkedIn" id="linkedInBot">
+                <a href="https://uk.linkedin.com/in/izayah-jordan-17a027273">
+                    <img src="img/bxl-linkedin-square.svg" height="40vh" width="40vw">
+                </a>
+            </div>
+
+            <div class="twitter">
+                <a href="twitter.com">
+                    <img src="img/bxl-twitter.svg" height="40vh" width="40vw">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

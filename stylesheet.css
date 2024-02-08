@@ -1,0 +1,289 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #454545;
+    font-family: "Protest Strike";
+}
+
+#logo{
+
+}
+.navButtons{
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+.navHover:hover{
+    background-color: #515151;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    align-items: center;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.35);
+    position: relative;
+}
+#aboutButton{
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 100%;
+}
+#contactButton{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#portfolioButton{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: black;
+    border-style: solid;
+}
+#logo{
+    padding-left: 2rem;
+    position: absolute;
+    left: 0;
+}
+.transparent{
+    background-color: transparent;
+
+}
+.buttons{
+    text-decoration: none;
+    border: none;
+    font-size: 1.5rem;
+    height: 2rem;
+}
+.lightgrayText{
+    color: lightgray;
+}
+.lightgray{
+    background-color: #646464;
+}
+
+.orange{
+    color: #FF6000;
+}
+.gray{
+    color: #454545;
+}
+.lightOrange{
+    color: #FFA559;
+}
+
+
+#hero{
+    height: 40rem;
+    background-image: url("img/5888.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.35);
+    position: relative;
+}
+#linkBar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+body a img{
+    transition: transform .7s ease-in-out;
+}
+body a img:hover{
+    transform: rotate(20deg);
+}
+.heroText{
+    padding-top: 13rem;
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#hero h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#hero p{
+    position: relative;
+    font-size: 2rem;
+    bottom: 4.3rem
+}
+
+
+#aboutMe{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+#aboutMe h1{
+    position: relative;
+    font-size: 3rem;
+    right: 2rem;
+}
+#aboutMe p{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    bottom: 2rem
+}
+
+
+#langTitle{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.35);
+}
+#languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+.languageBox{
+    box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    width: 10rem;
+    border: transparent;
+    border-radius: 20%;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+.languageColumn{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.break{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 3rem;
+    width: 100%;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.35);
+}
+
+.portfolioTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3rem;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gap{
+    margin-bottom: 2rem;
+}
+.projectLeftRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: transparent;
+    border-radius: 100px;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.35);
+}
+.projectLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 11rem;
+    padding-right: 4rem;
+}
+.projectLeftRight p{
+    width: 80%;
+    padding-left: 2rem;
+}
+.projectImg{
+    margin-left: 5rem;
+    border: transparent;
+    border-radius: 20%;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.35);
+}
+.break{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 3rem;
+    width: 100%;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.35);
+}
+.projectTitle{
+    padding-left: 1rem;
+}
+
+
+#contactMe h2{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contactButtons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contactButtons a{
+    text-decoration: none;
+    color: black;
+}
+#email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+#location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contactBottom{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#linkedInBot{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+@media only screen and (max-width: ) {
+    
+}
